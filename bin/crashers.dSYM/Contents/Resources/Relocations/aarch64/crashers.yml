@@ -1,0 +1,61 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     './bin/crashers'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _checkcolision, symObjAddr: 0x0, symBinAddr: 0x1000022C0, symSize: 0x7AC }
+  - { offsetInCU: 0x33, offset: 0x33, size: 0x8, addend: 0x0, symName: _checkcolision, symObjAddr: 0x0, symBinAddr: 0x1000022C0, symSize: 0x7AC }
+  - { offsetInCU: 0x26, offset: 0x311, size: 0x8, addend: 0x0, symName: _createFighter, symObjAddr: 0x0, symBinAddr: 0x100002A84, symSize: 0xCA8 }
+  - { offsetInCU: 0x3B, offset: 0x326, size: 0x8, addend: 0x0, symName: ___func__.createFighter, symObjAddr: 0x29C0, symBinAddr: 0x10000AAA0, symSize: 0x0 }
+  - { offsetInCU: 0x6B, offset: 0x356, size: 0x8, addend: 0x0, symName: _.str, symObjAddr: 0x29E0, symBinAddr: 0x10000AAC0, symSize: 0x0 }
+  - { offsetInCU: 0x88, offset: 0x373, size: 0x8, addend: 0x0, symName: _.str.1, symObjAddr: 0x2A00, symBinAddr: 0x10000AAE0, symSize: 0x0 }
+  - { offsetInCU: 0xA5, offset: 0x390, size: 0x8, addend: 0x0, symName: _.str.2, symObjAddr: 0x2A20, symBinAddr: 0x10000AB00, symSize: 0x0 }
+  - { offsetInCU: 0xC2, offset: 0x3AD, size: 0x8, addend: 0x0, symName: _.str.3, symObjAddr: 0x2A60, symBinAddr: 0x10000AB40, symSize: 0x0 }
+  - { offsetInCU: 0xDF, offset: 0x3CA, size: 0x8, addend: 0x0, symName: _.str.4, symObjAddr: 0x2AA0, symBinAddr: 0x10000AB80, symSize: 0x0 }
+  - { offsetInCU: 0xF0, offset: 0x3DB, size: 0x8, addend: 0x0, symName: _.str.5, symObjAddr: 0x2AE0, symBinAddr: 0x10000ABC0, symSize: 0x0 }
+  - { offsetInCU: 0x10D, offset: 0x3F8, size: 0x8, addend: 0x0, symName: _.str.6, symObjAddr: 0x2B40, symBinAddr: 0x10000AC20, symSize: 0x0 }
+  - { offsetInCU: 0x11D, offset: 0x408, size: 0x8, addend: 0x0, symName: _createFighter, symObjAddr: 0x0, symBinAddr: 0x100002A84, symSize: 0xCA8 }
+  - { offsetInCU: 0x188, offset: 0x473, size: 0x8, addend: 0x0, symName: _updateFighter, symObjAddr: 0xCA8, symBinAddr: 0x10000372C, symSize: 0x10BC }
+  - { offsetInCU: 0x200, offset: 0x4EB, size: 0x8, addend: 0x0, symName: _applyInputToFighter, symObjAddr: 0x1D64, symBinAddr: 0x1000047E8, symSize: 0x8E8 }
+  - { offsetInCU: 0x246, offset: 0x531, size: 0x8, addend: 0x0, symName: _drawFighter, symObjAddr: 0x264C, symBinAddr: 0x1000050D0, symSize: 0x29C }
+  - { offsetInCU: 0x294, offset: 0x57F, size: 0x8, addend: 0x0, symName: _destroyFighter, symObjAddr: 0x28E8, symBinAddr: 0x10000536C, symSize: 0x30 }
+  - { offsetInCU: 0x26, offset: 0x8AF, size: 0x8, addend: 0x0, symName: _createGame, symObjAddr: 0x0, symBinAddr: 0x100005434, symSize: 0x1E4 }
+  - { offsetInCU: 0x3B, offset: 0x8C4, size: 0x8, addend: 0x0, symName: ___func__.createGame, symObjAddr: 0x1A20, symBinAddr: 0x10000AC60, symSize: 0x0 }
+  - { offsetInCU: 0x6B, offset: 0x8F4, size: 0x8, addend: 0x0, symName: _.str, symObjAddr: 0x1A40, symBinAddr: 0x10000AC80, symSize: 0x0 }
+  - { offsetInCU: 0x88, offset: 0x911, size: 0x8, addend: 0x0, symName: _.str.1, symObjAddr: 0x1A60, symBinAddr: 0x10000ACA0, symSize: 0x0 }
+  - { offsetInCU: 0xA5, offset: 0x92E, size: 0x8, addend: 0x0, symName: _.str.2, symObjAddr: 0x1A80, symBinAddr: 0x10000ACC0, symSize: 0x0 }
+  - { offsetInCU: 0xC2, offset: 0x94B, size: 0x8, addend: 0x0, symName: _.str.3, symObjAddr: 0x1AA0, symBinAddr: 0x10000ACE0, symSize: 0x0 }
+  - { offsetInCU: 0xE5, offset: 0x96E, size: 0x8, addend: 0x0, symName: _createGame, symObjAddr: 0x0, symBinAddr: 0x100005434, symSize: 0x1E4 }
+  - { offsetInCU: 0x129, offset: 0x9B2, size: 0x8, addend: 0x0, symName: _initGame, symObjAddr: 0x1E4, symBinAddr: 0x100005618, symSize: 0xDF4 }
+  - { offsetInCU: 0x181, offset: 0xA0A, size: 0x8, addend: 0x0, symName: _runGame, symObjAddr: 0xFD8, symBinAddr: 0x10000640C, symSize: 0x60 }
+  - { offsetInCU: 0x1C1, offset: 0xA4A, size: 0x8, addend: 0x0, symName: _updateGame, symObjAddr: 0x1038, symBinAddr: 0x10000646C, symSize: 0x1C0 }
+  - { offsetInCU: 0x1F3, offset: 0xA7C, size: 0x8, addend: 0x0, symName: _renderGame, symObjAddr: 0x11F8, symBinAddr: 0x10000662C, symSize: 0x6CC }
+  - { offsetInCU: 0x245, offset: 0xACE, size: 0x8, addend: 0x0, symName: _closeGame, symObjAddr: 0x18C4, symBinAddr: 0x100006CF8, symSize: 0xBC }
+  - { offsetInCU: 0x26, offset: 0xE61, size: 0x8, addend: 0x0, symName: _getPlayerInput, symObjAddr: 0x0, symBinAddr: 0x100006E4C, symSize: 0x5EC }
+  - { offsetInCU: 0x3B, offset: 0xE76, size: 0x8, addend: 0x0, symName: ___func__.handleGameInput, symObjAddr: 0xD40, symBinAddr: 0x10000AD20, symSize: 0x0 }
+  - { offsetInCU: 0x6B, offset: 0xEA6, size: 0x8, addend: 0x0, symName: _.str, symObjAddr: 0xD60, symBinAddr: 0x10000AD40, symSize: 0x0 }
+  - { offsetInCU: 0x88, offset: 0xEC3, size: 0x8, addend: 0x0, symName: _.str.1, symObjAddr: 0xD80, symBinAddr: 0x10000AD60, symSize: 0x0 }
+  - { offsetInCU: 0x9D, offset: 0xED8, size: 0x8, addend: 0x0, symName: _getPlayerInput, symObjAddr: 0x0, symBinAddr: 0x100006E4C, symSize: 0x5EC }
+  - { offsetInCU: 0xD8, offset: 0xF13, size: 0x8, addend: 0x0, symName: _handleGameInput, symObjAddr: 0x5EC, symBinAddr: 0x100007438, symSize: 0x6B0 }
+  - { offsetInCU: 0x26, offset: 0x132C, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100007B80, symSize: 0x4C }
+  - { offsetInCU: 0x33, offset: 0x1339, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100007B80, symSize: 0x4C }
+  - { offsetInCU: 0x26, offset: 0x16F7, size: 0x8, addend: 0x0, symName: _integrateVerlet, symObjAddr: 0x0, symBinAddr: 0x100007BE4, symSize: 0x948 }
+  - { offsetInCU: 0x33, offset: 0x1704, size: 0x8, addend: 0x0, symName: _integrateVerlet, symObjAddr: 0x0, symBinAddr: 0x100007BE4, symSize: 0x948 }
+  - { offsetInCU: 0x9D, offset: 0x176E, size: 0x8, addend: 0x0, symName: _getVelocity, symObjAddr: 0x948, symBinAddr: 0x10000852C, symSize: 0x2C }
+  - { offsetInCU: 0x26, offset: 0x186A, size: 0x8, addend: 0x0, symName: _createPlayer, symObjAddr: 0x0, symBinAddr: 0x100008570, symSize: 0x514 }
+  - { offsetInCU: 0x3B, offset: 0x187F, size: 0x8, addend: 0x0, symName: ___func__.createPlayer, symObjAddr: 0x6A0, symBinAddr: 0x10000ADA0, symSize: 0x0 }
+  - { offsetInCU: 0x6B, offset: 0x18AF, size: 0x8, addend: 0x0, symName: _.str, symObjAddr: 0x6C0, symBinAddr: 0x10000ADC0, symSize: 0x0 }
+  - { offsetInCU: 0x88, offset: 0x18CC, size: 0x8, addend: 0x0, symName: _.str.1, symObjAddr: 0x6E0, symBinAddr: 0x10000ADE0, symSize: 0x0 }
+  - { offsetInCU: 0x9D, offset: 0x18E1, size: 0x8, addend: 0x0, symName: _createPlayer, symObjAddr: 0x0, symBinAddr: 0x100008570, symSize: 0x514 }
+  - { offsetInCU: 0xFA, offset: 0x193E, size: 0x8, addend: 0x0, symName: _updatePlayer, symObjAddr: 0x514, symBinAddr: 0x100008A84, symSize: 0x70 }
+  - { offsetInCU: 0x12C, offset: 0x1970, size: 0x8, addend: 0x0, symName: _destroyPlayer, symObjAddr: 0x584, symBinAddr: 0x100008AF4, symSize: 0x70 }
+  - { offsetInCU: 0x26, offset: 0x1CB7, size: 0x8, addend: 0x0, symName: _loadTextureChecked, symObjAddr: 0x0, symBinAddr: 0x100008BFC, symSize: 0x108 }
+  - { offsetInCU: 0x3B, offset: 0x1CCC, size: 0x8, addend: 0x0, symName: _.str, symObjAddr: 0x1C80, symBinAddr: 0x10000AE00, symSize: 0x0 }
+  - { offsetInCU: 0x66, offset: 0x1CF7, size: 0x8, addend: 0x0, symName: ___func__.createAnimation, symObjAddr: 0x1CE0, symBinAddr: 0x10000AE60, symSize: 0x0 }
+  - { offsetInCU: 0x88, offset: 0x1D19, size: 0x8, addend: 0x0, symName: _.str.1, symObjAddr: 0x1D00, symBinAddr: 0x10000AE80, symSize: 0x0 }
+  - { offsetInCU: 0xA5, offset: 0x1D36, size: 0x8, addend: 0x0, symName: _.str.2, symObjAddr: 0x1D20, symBinAddr: 0x10000AEA0, symSize: 0x0 }
+  - { offsetInCU: 0xC1, offset: 0x1D52, size: 0x8, addend: 0x0, symName: _loadTextureChecked, symObjAddr: 0x0, symBinAddr: 0x100008BFC, symSize: 0x108 }
+  - { offsetInCU: 0xF8, offset: 0x1D89, size: 0x8, addend: 0x0, symName: _updateSprite, symObjAddr: 0x108, symBinAddr: 0x100008D04, symSize: 0x450 }
+  - { offsetInCU: 0x138, offset: 0x1DC9, size: 0x8, addend: 0x0, symName: _drawSprite, symObjAddr: 0x558, symBinAddr: 0x100009154, symSize: 0x1080 }
+  - { offsetInCU: 0x1ED, offset: 0x1E7E, size: 0x8, addend: 0x0, symName: _destroyAnimations, symObjAddr: 0x15D8, symBinAddr: 0x10000A1D4, symSize: 0x26C }
+  - { offsetInCU: 0x23E, offset: 0x1ECF, size: 0x8, addend: 0x0, symName: _createAnimation, symObjAddr: 0x1844, symBinAddr: 0x10000A440, symSize: 0x390 }
+...
